@@ -197,7 +197,7 @@ const fruits = ["apple", "banana", "orange", "grape"];
 
 // console.log(res);
 
-// console.log( sum(20, 30) );
+// console.log(sum(20, 30));
 
 
 // function sum(){
@@ -212,3 +212,59 @@ const fruits = ["apple", "banana", "orange", "grape"];
 // console.log( sum(5, 10, 15, 20, 25) );
 // console.log( sum(1, 2, 3) );
 // console.log( sum(100, 200, 300, 400) );
+
+// function saySalary(name, salary = 1000) {
+//     console.log("Name: " + name + ", Salary: " + salary);
+// }
+
+// saySalary("John", 2000);
+// saySalary("Alice");
+
+// daclaration();
+
+// expression();
+
+
+// function daclaration(){
+//     console.log("Hello from declaration");
+// }
+
+// let expression = function(a,b){
+//     console.log("Hello from expression");
+// }
+// expression(5,10);
+
+// forEach map filter find reduce
+
+// const numbers = [1, 2, 3, 4, 5];
+
+// numbers.forEach(function(element, index){
+//     // console.log(element);
+//     // console.log(index);
+// })
+
+// let newNumbers = numbers.map(function(element, index){
+//     // console.log(element);
+//     return element * 2;
+// })
+
+// console.log(newNumbers);
+
+// let filteredNumbers = numbers.filter(function(element, index){
+//     return element > 2;
+// })
+
+// console.log(filteredNumbers);
+
+// let foundNumber = numbers.find(function(element, index){
+//     // return element === 3;
+//     return element > 3;
+// })
+
+// console.log(foundNumber);
+
+// let sum = numbers.reduce(function(sum, element){
+//     return sum + element;
+// }, 0)
+
+// console.log(sum);
